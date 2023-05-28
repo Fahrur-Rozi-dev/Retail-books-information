@@ -26,8 +26,6 @@ class AuthController extends Controller
                 Session::flash('message','anda belum terverifikasi');
                 return redirect('/notactive');
             } else {
-                Session::flash('status','success');
-                Session::flash('message','anda sudah terverifikasi');
                 if (Auth::user()->role_id == 1){
                     return redirect('/dashboard');
                 } elseif (Auth::user()->role_id == 2) {
