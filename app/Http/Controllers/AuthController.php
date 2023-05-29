@@ -26,6 +26,7 @@ class AuthController extends Controller
                 Session::flash('message','anda belum terverifikasi');
                 return redirect('/notactive');
             } else {
+                $request->session()->regenerate();
                 if (Auth::user()->role_id == 1){
                     return redirect('/dashboard');
                 } elseif (Auth::user()->role_id == 2) {
@@ -33,8 +34,6 @@ class AuthController extends Controller
                 }
                 
             }
-            // $request->session()->regenerate();
-            // return redirect()->intended('dashboard');
         } else {
             Session::flash('status','failed');
             Session::flash('message','login invalid');
