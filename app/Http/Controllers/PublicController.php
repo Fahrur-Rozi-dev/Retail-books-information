@@ -9,12 +9,15 @@ class PublicController extends Controller
 
     public function index(Request $request)
     {
-        // $request->session()->flush();
-        // return view();
+
     }
 
     public function home()
     {
         return view('Public.home');
+    }
+    public function dev()
+    {
+        return view('Public.development');
     }
 }

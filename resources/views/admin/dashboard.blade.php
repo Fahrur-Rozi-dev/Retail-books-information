@@ -1,4 +1,5 @@
 @extends('layouts.index')
 @section('content')
     <div>ini halaman dashboard</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi architecto cum eum unde fugiat placeat hic et atque temporibus veniam, nemo veritatis voluptatem quis esse error excepturi culpa omnis iure quaerat voluptates rem! Saepe corporis consequatur voluptatem ea obcaecati, aut a amet quibusdam. Qui quam illum distinctio aliquam quo dolorem dolores, voluptate soluta nihil eius? Quos dolores expedita perspiciatis animi debitis consequatur explicabo omnis nostrum magnam obcaecati. Nesciunt atque laboriosam nobis voluptatum, qui ex modi dolorem harum accusantium tempore! Dolorem consequuntur fugiat in harum. Omnis eius, porro placeat officiis, pariatur sit autem libero quasi molestiae repellat distinctio reprehenderit quod!</p>
 @endsection
